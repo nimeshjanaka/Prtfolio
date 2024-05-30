@@ -1,0 +1,38 @@
+.customCard{
+  position: relative;
+    width: 100%;
+  background: #22221d; /* default dark background */
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: border 0.3s ease;
+  overflow: hidden;
+}
+
+.card-content {
+  position: relative;
+  color: white;
+}
+.card-description {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  color: white;
+  margin-bottom: 10px;
+}
+.expand {
+  max-height: 100px; /* Adjust based on content size */
+}
+
+.read-more-button {
+  color: #fff;
+  background: gray;
+  border: none;
+  cursor: pointer;
+}
+
+.customCard:hover .card-description {
+  max-height: 100px; /* Adjust this value based on the content size */
+}
+

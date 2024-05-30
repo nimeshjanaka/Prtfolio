@@ -1,0 +1,13 @@
+.full-height-background {
+  min-height: 100vh; 
+  background-size: cover;
+}
+
+.ant-menu-dark .ant-menu-item-selected {
+  background-color: transparent !important; 
+  color: #c0a16b !important; 
+}
+
+.ant-menu-dark .ant-menu-item-selected a {
+  color: inherit; 
+}
