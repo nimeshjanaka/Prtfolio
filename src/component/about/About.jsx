@@ -22,7 +22,7 @@ const About = ({ description = "" }) => {
         <img
           style={{
             padding: "20px",
-            maxWidth: "60%",
+            maxWidth: "80%",
             height: "auto",
             borderRadius: "45px",
           }}
@@ -36,7 +36,7 @@ const About = ({ description = "" }) => {
           style={{
             color: "white",
             textAlign: "left",
-            marginLeft: "10%",
+            paddingRight: "80px",
           }}
         >
           <div style={{ lineHeight: "1" }}>
@@ -44,7 +44,7 @@ const About = ({ description = "" }) => {
             <h2 style={{ fontWeight: "bold", fontSize: "22px" }}>
               Frontend Developer
             </h2>
-            <span style={{ lineHeight: "1.5" }}>
+            <span style={{ lineHeight: "1.5", justifyContent: "center" }}>
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
               making it over 2000 years old. Richard McClintock, a Latin

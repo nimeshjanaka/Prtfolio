@@ -64,7 +64,7 @@ const Home = () => {
                 src={telegramIcon}
                 alt="Telegram"
                 style={{
-                  width: 47,
+                  width: 40,
                   height: 40,
                   marginRight: 10,
                   borderRadius: "15px",
@@ -80,7 +80,7 @@ const Home = () => {
                 src={linkedInIcon}
                 alt="LinkedIn"
                 style={{
-                  width: 47,
+                  width: 40,
                   height: 40,
                   marginRight: 10,
                   borderRadius: "15px",
@@ -95,7 +95,7 @@ const Home = () => {
               <img
                 src={xIcon}
                 alt="X Logo"
-                style={{ width: 47, height: 40, borderRadius: "15px" }}
+                style={{ width: 42, height: 40, borderRadius: "15px" }}
               />
             </a>
           </div>
