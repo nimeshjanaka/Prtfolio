@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Menu, Row } from "antd";
+import { Layout, Menu, Row, Col } from "antd";
 import { useLocation, useNavigate } from "react-router-dom";
 import Pages from "../Pages";
 import "./MainLayout.css";

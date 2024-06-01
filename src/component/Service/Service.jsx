@@ -13,7 +13,7 @@ const Service = () => {
     <div style={{ padding: "20px" }}>
       <h1>Our Services</h1>
       <Row gutter={[20, 12]} justify="center">
-        <Col xs={24} sm={24} md={12} lg={6}>
+        <Col xs={24} sm={18} md={12} lg={10} xl={8}>
           <CardComponent
             icon={
               <FullscreenOutlined
@@ -26,7 +26,7 @@ const Service = () => {
                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with `}
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={6}>
+        <Col xs={24} sm={18} md={12} lg={10} xl={8}>
           <CardComponent
             icon={
               <PlayCircleOutlined
@@ -39,7 +39,7 @@ const Service = () => {
                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with `}
           />
         </Col>
-        <Col xs={24} sm={24} md={12} lg={6}>
+        <Col xs={24} sm={18} md={12} lg={10} xl={8}>
           <CardComponent
             icon={
               <QuestionCircleOutlined

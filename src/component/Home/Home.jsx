@@ -112,7 +112,7 @@ const Home = () => {
         <Col span={screens.xs ? 24 : 12}>
           <img
             style={{
-              maxWidth: "60%",
+              maxWidth: "70%",
               height: "auto",
               borderRadius: "25px",
               marginTop: "7%",

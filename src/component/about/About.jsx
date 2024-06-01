@@ -36,7 +36,7 @@ const About = ({ description = "" }) => {
           style={{
             color: "white",
             textAlign: "left",
-            paddingRight: "80px",
+            marginLeft: "30px",
           }}
         >
           <div style={{ lineHeight: "1" }}>
