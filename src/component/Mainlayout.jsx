@@ -67,6 +67,7 @@ const Mainlayout = () => {
             background: "#21222d",
             color: "white",
             height: "100%",
+            width: "100%",
           }}
         >
           <Pages />
